@@ -37,7 +37,7 @@
           {% assign siteplants = site.plants | sort: 'order' %}
           {% for item in siteplants limit:7 %}
               {% if forloop.index < 3 or forloop.index == 5 or forloop.index == 6 or forloop.index == 8 or forloop.index == 9 %}
-                <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
+                <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
                 <div class="square" onclick="window.location.href='{{ item.url }}'"><div style="text-align: center;"><h3>{{ item.title }}</h3>
                 {% for subitem in item.variants %}
                   {% if forloop.index == 1 %}{{ forloop.length }} {% if forloop.length > 1 %}varieties{% else %}variety{% endif %}{% endif %}
@@ -47,7 +47,7 @@
                 {% for subitem in item.variants %}
                   {% if forloop.index == 1 %}{{ forloop.length }} {% if forloop.length > 1 %}varieties{% else %}variety{% endif %}{% endif %}
                 {% endfor %}</div></div>
-                <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
+                <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
               {% endif %}
           {% endfor %}
                 <div style="clear: both; width: 100%; height: 1px; float: none;"></div>

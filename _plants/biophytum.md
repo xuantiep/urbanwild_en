@@ -6,29 +6,25 @@ slider:
     image: /uploads/slide-Alocasia-Wentii.jpg
     text_color: light
     button_text: Ontdek wat planten jou bieden
-    button_link: '/#luchtzuiverend'
+    button_link: '/#airpurifying'
   - title: Hou je jungle wild
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
     button_text: Bekijk de verzorgingstips
-    button_link: /verzorging
+    button_link: /care
   - title: Huizen zijn er helemaal wild van!
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Bekijk de collectie
-    button_link: /collectie
-description_html: <p>De Biophytum Sensitivum lijkt net een minipalm.</p>
+    button_link: /collection
+description_html: >-
+  <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers to a very unique quality: the leaves are extremely sensitive and move at the slightest touch! Don't worry if the leaves start to wilt slightly in the evening – that's perfectly normal. The plant is known in Eastern cultures for its medicinal properties.</p>
 origin: Brazilië
 variants:
   - title: SENSITIVUM
     image: /uploads/20151013759-Biophytum 9cm.jpg
     description_html: >-
-      De Biophytum Sensitivum is een plant die ook wel de minipalm wordt
-      genoemd. En het ‘sensitivum’ slaat op een heel bijzondere eigenschap: raak
-      de plant voorzichtig aan en je ziet de bladeren bewegen! Schrik niet als
-      tegen de avond de bladeren wat slapjes worden: dat is normaal. In de
-      Oosterse cultuur wordt de plant gewaardeerd om de medicinale
-      eigenschappen.
+      <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers to a very unique quality: the leaves are extremely sensitive and move at the slightest touch! Don't worry if the leaves start to wilt slightly in the evening – that's perfectly normal. The plant is known in Eastern cultures for its medicinal properties.</p>
 order: 1
 ---
 

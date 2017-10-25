@@ -11,15 +11,15 @@
     {% include header.html %}
 
 
-    <div class="light collectie" id="collectie">
+    <div class="light collectie" id="collection">
       <div class="container">
         <div class="row">
             <div class="col-xs-12 text-left">
-                      <h2 class="post-title editable">Collectie</h2>
+                      <h2 class="post-title editable">Collection</h2>
             </div> 
         </div>
       </div>
-      <div class="container" style="padding: 0 7px;">
+      <div class="container" style="padding: 0 15px;">
         <div class="row text-left" style="margin: 0px -7px; overflow: hidden;">
           {% assign siteplants = site.plants | sort: 'order' %}
           {% for item in siteplants %}
@@ -28,8 +28,8 @@
               {% for subitem in item.variants %}
                 {% if forloop.index == 1 %}{{ forloop.length }} variants{% endif %}
               {% endfor %}&nbsp;
-              <div class="plant" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit') center center no-repeat; background-size: contain;"></div>
-              <div class="description">{{ item.description }}</div>
+              <div class="plant" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;"></div>
+              <div class="description">{{ item.description_html | strip_html | truncate: 65 }}</div>
             </div>
           {% endfor %}
           </div>

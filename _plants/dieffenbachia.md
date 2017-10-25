@@ -6,41 +6,32 @@ slider:
     image: /uploads/slide_dieffenbachia.jpg
     text_color: dark
     button_text: Ontdek wat planten jou bieden
-    button_link: '/#luchtzuiverend'
+    button_link: '/#airpurifying'
   - title: Hou je jungle wild!
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
     button_text: Bekijk de verzorgingstips
-    button_link: /verzorging
+    button_link: /care
   - title: Huizen zijn er helemaal wild van!
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Bekijk de collectie
-    button_link: /collectie
-description_html: <p>Met een Dieffenbachia in huis zuiver je meteen de lucht!</p>
+    button_link: /collection
+description_html: <p>This Dieffenbachia is native to the rainforests of South and Central America, but also thrives in European living rooms.</p><p>The unusual pattern on the leaves makes this a much-loved plant. Each variety has different leaves, with colours ranging from green to yellow to white. Dieffenbachia is also a 100% natural air purifier.</p><p>Dieffenbachia Reflector has the perfect combination of green and light green.</p>
 origin: Zuid- en Midden-Amerika
 variants:
   - title: REFLECTOR
     image: /uploads/20151012568-Dieffenbachia Reflector.jpg
     description_html: >-
-      <p>Het is een plant die zich thuis voelt in de tropen van Zuid- en
-      Midden-Amerika, maar ook in de Europese huiskamers: de
-      Dieffenbachia.</p><p>Vooral de bijzondere tekening van de bladeren maakt
-      de Dieffenbachia zo geliefd. Elke soort heeft weer andere bladeren, met
-      tinten die vari&euml;ren tussen groen in vele tinten, geel en wit.
-      Bovendien haal je meteen gezonde lucht in huis, want de Dieffenbachia is
-      een 100% natuurlijke luchtzuiveraar.</p><p>Bij de Dieffenbachia Reflector
-      gaan groen en lichtgroen fraai samen in het blad.</p>
+      <p>This Dieffenbachia is native to the rainforests of South and Central America, but also thrives in European living rooms.</p><p>The unusual pattern on the leaves makes this a much-loved plant. Each variety has different leaves, with colours ranging from green to yellow to white. Dieffenbachia is also a 100% natural air purifier.</p><p>Dieffenbachia Reflector has the perfect combination of green and light green.</p>
   - title: VESUVIUS
     image: /uploads/20151012618-Dieffenbachia Vesuvius.jpg
     description_html: >-
-      <p>De Dieffenbachia Vesuvius is een van de lichter gekleurde varianten.
-      Het licht groene blad heeft heel veel schakeringen.</p>
+      <p>Dieffenbachia Vesuvius is one of the lighter-coloured varieties, with a lot of variegation in the light green leaves.</p>
   - title: GREEN MAGIC
     image: /uploads/20151012563-Dieffenbachia Green Magic.jpg
     description_html: >-
-      <p>Niet voor niets heet deze variant Green Magic: het lijkt wel of er heel
-      creatief een witte streep in het blad is getrokken!</p>
+      <p>Green Magic owes its name to the playful white stripe down the centre of the leaf.</p>
 order: 1
 ---
 

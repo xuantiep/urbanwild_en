@@ -6,17 +6,17 @@ slider:
     image: /uploads/slide-Alocasia-Wentii.jpg
     text_color: dark
     button_text: Ontdek wat planten jou bieden
-    button_link: '/#luchtzuiverend'
+    button_link: '/#airpurifying'
   - title: Hou je jungle wild
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
     button_text: Bekijk de verzorgingstips
-    button_link: /verzorging
+    button_link: /care
   - title: Huizen zijn er helemaal wild van!
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Bekijk de collectie
-    button_link: /collectie
+    button_link: /collection
 description_html: >-
   <p>Does Alocasia ring a bell? It's the chic Latin name for the plant more commonly known as 'elephant ear'. And it's easy to see why: the plant has broad leaves that resemble elephant ears. This stunning plant looks great in a spacious room.</p><p>In terms of leaf shape, Alocasia Wentii most closely resembles an elephant's ear. The large, dark green leaves are sure to draw admiring glances. And rightfully so! Alocasia is native to tropical rainforests, which means it loves water and needs a lot of it. It's also easy to keep alive with minimal care.</p>
 origin: Zuidoost Azië
@@ -32,35 +32,20 @@ variants:
   - title: DWARF AMAZONICA
     image: /uploads/20151012550-Alocasia Dwarf Amazonica_website.jpg
     description_html: >-
-      <p>Z&rsquo;n bijnaam is niet vriendelijk: de skeletplant! Maar de
-      uitstraling van de Alocasia Dwarf Amazonica des te meer. Zet &lsquo;m in
-      de huiskamer en je hebt er een groene eyecatcher bij. Hoewel,
-      groen&hellip; het donkergroene blad wordt doorsneden door bijna witte
-      bladnerven. Decoratief? Reken maar!</p>
+      <p>Its nickname – 'the skeleton plant' – doesn't take away from the beauty of Alocasia Dwarf Amazonica. Put it in your living room for a green eye-catcher. Well, not entirely green: the dark green leaves are criss-crossed with white veins, making it a highly decorative plant!</p>
   - title: PORTADORA
     image: /uploads/alocasia-portadora.jpg
     description_html: >-
-      <p>Het is de allemansvriend van de familie. Want de Alocasia Portadora
-      staat al in vele huiskamers te pronken. De bladeren zijn groot met een
-      lichte karteling. En groeien is z'n hobby. Kijk maar uit, want met de
-      juiste verzorging is je kamer straks nog te klein voor deze
-      Olifantsoor...</p>
+      <p>Alocasia Portodora is one of the most popular houseplants and can be found in many homes. The leaves are large and slightly serrated. This is a plant that loves to grow. In fact, with a little love, this plant might just outgrow your living room.</p>
   - title: PINK DRAGON
     image: /uploads/alocasia-pink-dragon.jpg
     description_html: >-
-      <p>Gevaarlijk mooi, deze Pink Dragon. Hij lijkt sterk op de Alocasia Dwarf
-      Amazonica, maar dan met een opvallend verschil. Kijk maar naar de
-      prachtige roze bladstelen en het iets rondere blad. Schuilt er een
-      drakentemmer in je? Haal dan de Pink Dragon in huis als je durft!</p>
+      <p>This Pink Dragon is dangerously beautiful. It resembles Alocasia Dwarf Amazonica, with one obvious difference: the striking pink stems with its slightly rounder leaves. This plant is perfect for courageous dragon tamers!</p>
   - title: YUCATAN PRINCESS
     image: /uploads/alocasia-yucatan-princess.jpg
     description_html: >-
-      <p>Princess: zo&rsquo;n naam past alleen maar bij de mooiste bladplanten
-      uit de jungle. Deze Alocasia springt er in elk interieur uit, door de
-      combinatie van paars-groen blad die hier en daar een zwart accent krijgen.
-      Met recht een Koninklijke Hoogheid!</p>
+      <p>A name like this is only befitting of the most beautiful plants in the jungle. This Alocasia will make a statement in any interior thanks to its greenish-purple leaves with sporadic black accents. This plant is true royalty!</p>
 order: 1
 ---
 
-
-De Alocasia wordt ook wel ‘Olifantsoor’ genoemd.
+Does Alocasia ring a bell? It's the chic Latin name for the plant more commonly known as 'elephant ear'. And it's easy to see why: the plant has broad leaves that resemble elephant ears. This stunning plant looks great in a spacious room.</p><p>In terms of leaf shape, Alocasia Wentii most closely resembles an elephant's ear. The large, dark green leaves are sure to draw admiring glances. And rightfully so! Alocasia is native to tropical rainforests, which means it loves water and needs a lot of it. It's also easy to keep alive with minimal care.

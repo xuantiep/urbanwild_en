@@ -6,51 +6,33 @@ slider:
     image: /uploads/slide-Monstera.jpg
     text_color: dark
     button_text: Bekijk de verzorgingstips
-    button_link: /verzorging
+    button_link: /care
   - title: Zuiverende planten voor gezond leven
     image: /img/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Bekijk de collectie
-    button_link: /collectie
+    button_link: /collection
   - title: Heb jij je jungle al compleet?
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
     button_text: Ontdek welke jij nog mist
-    button_link: /collectie
+    button_link: /collection
 description_html: >-
-  <p>Kijk uit voor de Monstera, met z&rsquo;n monsterlijk grote bladeren met
-  gaten erin. Natuurlijk ken je de Monstera beter als &lsquo;gatenplant&rsquo;.
-  Pas als de bladeren ouder worden, krijgen ze de typerende gaten voor het
-  jungle-effect.</p><p>Het is een ideale plant voor iedereen die niet veel tijd
-  kwijt wil aan de verzorging. Een probleemloze groei is verzekerd. En je hebt
-  meteen gezonde lucht in huis, want de bladeren halen schadelijke stoffen uit
-  de lucht.</p>
+  <p>Watch out for the Monstera and its monstrously large, ribboned leaves. Monstera is more commonly known as the 'split-leaf plant'. The leaves only get their split, jungle-like appearance as the plant ages.</p><p>Monstera is perfect for people who don't want to spend a lot of time tending to their plants. It grows easily and purifies the air for a healthy indoor climate.</p>
 origin: Midden Amerika
 variants:
   - title: MONSTERA
     image: /uploads/20151012499-Monstera 180.jpg
     description_html: >-
-      <p>Kijk uit voor de Monstera, met z&rsquo;n monsterlijk grote bladeren met
-      gaten erin. Natuurlijk ken je de Monstera beter als
-      &lsquo;gatenplant&rsquo;. Pas als de bladeren ouder worden, krijgen ze de
-      typerende gaten voor het jungle-effect.</p><p>Het is een ideale plant voor
-      iedereen die niet veel tijd kwijt wil aan de verzorging. Een probleemloze
-      groei is verzekerd. En je hebt meteen gezonde lucht in huis, want de
-      bladeren halen schadelijke stoffen uit de lucht.</p>
+      <p>Watch out for the Monstera and its monstrously large, ribboned leaves. Monstera is more commonly known as the 'split-leaf plant'. The leaves only get their split, jungle-like appearance as the plant ages.</p><p>Monstera is perfect for people who don't want to spend a lot of time tending to their plants. It grows easily and purifies the air for a healthy indoor climate.</p>
   - title: MONSTERA DELICIOSA
     image: /uploads/Monstera- Deliciosa.jpg
     description_html: >-
-      <p>Da's een bijzondere Monstera! De Deliciosa houdt zich ook zonder
-      aanleunstok prima staande. En toch is het een echte Monstera. Mooi door
-      z'n verwilderde uitstraling. En apart door het wijd uiteenvallende
-      blad!<br />&nbsp;</p>
+      <p>This is a truly exceptional Monstera! Deliciosa can grow without the help of a support stick, but this doesn't make it any less of a Monstera. The untamed wildness of this plant makes it a real eye-catcher, as do its wide leaves.</p>
   - title: MONSTERA VARIEGATA
     image: /uploads/Monstera _variegata.jpg
     description_html: >-
-      <p>Het is het creatieve lid van de familie Monstera, de Variegata.
-      Eigenzinnig en onderscheidend. Want waarom moet een blad van een plant
-      altijd maar groen zijn? Van de Variegata mag er ook gerust een streepje
-      wit door. Opvallend!</p>
+      <p>The unique and distinct Monstera Variegata is the creative one in the family. Who said a plant has to be green? Variegata boasts striking white stripes on its leaves!</p>
 order: 1
 ---
 

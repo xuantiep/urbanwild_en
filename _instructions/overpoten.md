@@ -1,8 +1,7 @@
 ---
-title: Overpoten
-caption: Tijdig
+title: Repotting
+caption: in time
 image: /img/brightness.svg
 ---
 
-
-Een plant die groeit, heeft een keer een grotere pot nodig om zich te ontwikkelen. Tijdig overplanten is daarom handig om de wortels weer lucht te geven.
+A growing plant will have to be repotted at some point in order to keep growing. Repotting your plants in time will give the roots the oxygen they need.

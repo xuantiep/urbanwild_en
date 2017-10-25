@@ -339,7 +339,7 @@ label {font-weight: normal;}
 .jmplants .floatright {float: right;}
 .plant #gallery {padding-top: 16px;}
 #over {background: url('/img/vlek.png') calc(50% - 416px) 75% no-repeat; background-size: 208px auto;}
-#luchtzuiverend {background: url('/img/vlek.png') 55% 35% no-repeat; background-size: 208px auto;}
+#airpurifying {background: url('/img/vlek.png') 55% 35% no-repeat; background-size: 208px auto;}
 
 
 @media all and (max-width: 1360px) {
