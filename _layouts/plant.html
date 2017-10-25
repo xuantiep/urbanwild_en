@@ -6,7 +6,7 @@
   <body id="body" class="{{ page.layout }}" onload="">
   <div id="nonsplash">
     <div id="innernonsplash">
-    <div id="popup" onclick="window.location.href='/verzorging';"><div id="closepopup">x</div>LEES HIER<br />ALLES OVER DE<br />VERZORGINGSTIPS</div>
+    <div id="popup" onclick="window.location.href='/verzorging';"><div id="closepopup">x</div>GET SOME<br />VALUABLE CARE TIPS<br />CLICK HERE</div>
 
 	  {% include header.html %}
 
@@ -28,10 +28,10 @@
                   • {{ page.title }}<br />
                   <div id="descriptions">{% for item in page.variants %}<span class="description">{{ item.description_html }}</span>{% endfor %}</div><br />
                   <br />
-                  • Land van herkomst<br />
+                  • Country of origin<br />
                   <img src="/img/globe.svg" class="care_icon" style="width: 55px; margin-right: 5px; cursor: default;" /><span style="position: relative; top: 4px;">{{ page.origin }}</span><br />
                   <br />
-                  • Verzorging<br />
+                  • Care<br />
                   <img src="/img/brightness.svg" class="care_icon" style="width: 55px;" title="Brightness" onclick="window.location.href='/verzorging';" />
                   <img src="/img/temperature.svg" class="care_icon" style="width: 48px;" title="Temperature" onclick="window.location.href='/verzorging';" />
                   <img src="/img/water.svg" class="care_icon" style="width: 65px;" title="Water" onclick="window.location.href='/verzorging';" />
