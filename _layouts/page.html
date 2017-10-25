@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="body" class="{{ page.layout }}" onload="">
+  <div id="nonsplash">
+    <div id="innernonsplash">
+	  {% include header.html %}
+
+
+    <div class="light">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+              <h2 class="post-title" style="margin: 0 0 35px;">{{ page.title }}</h2>
+              {{ content }}
+
+            </div>
+          </div>
+      </div>
+    </div><br />
+
+
+    {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+</html>

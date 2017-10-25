@@ -1,0 +1,24 @@
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'page'
+  - scope:
+      path: ''
+      type: "plants"
+    values:
+      layout: 'plant'
+
+collections:
+  instructions:
+    output: false
+  plants:
+    output: true
+    permalink: collection/:title
+
+title: Urban Wild
+permalink: /:title
+
+text_colors: 
+  - dark
+  - light

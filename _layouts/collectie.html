@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="300" class="{{ page.layout }}" onload="">
+  <div id="splash"><table cellpadding="0" cellspacing="0"><tr><td><img src="/img/urbanwildlogo.png" /></td></tr></table></div>
+  <div id="nonsplash">
+    <div id="innernonsplash">
+  <script>document.getElementById('nonsplash').style.display = 'none';</script>
+    {% include header.html %}
+
+
+    <div class="light collectie" id="collectie">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                      <h2 class="post-title editable">Collectie</h2>
+            </div> 
+        </div>
+      </div>
+      <div class="container" style="padding: 0 7px;">
+        <div class="row text-left" style="margin: 0px -7px; overflow: hidden;">
+          {% assign siteplants = site.plants | sort: 'order' %}
+          {% for item in siteplants %}
+            <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0 7px; cursor: pointer;" onclick="window.location.href='{{ item.url }}';">
+              <h3>{{ item.title }}</h3>
+              {% for subitem in item.variants %}
+                {% if forloop.index == 1 %}{{ forloop.length }} variants{% endif %}
+              {% endfor %}&nbsp;
+              <div class="plant" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit') center center no-repeat; background-size: contain;"></div>
+              <div class="description">{{ item.description }}</div>
+            </div>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+
+
+  
+
+    {% include footer.html %}
+</div>
+  </body>
+
+</html>

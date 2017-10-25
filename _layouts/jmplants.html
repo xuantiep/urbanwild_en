@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="body" class="{{ page.layout }}" onload="">
+  <div id="nonsplash">
+    <div id="innernonsplash">
+
+	  {% include header.html %}
+<br />
+    <div class="light">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="bigplant" style="background: white url('{{ page.first_image }}') center center no-repeat; background-size: cover;"></div>
+                {% for item in page.variants %}<div class="smallplant" style="background: white url('{{ item.image }}') center center no-repeat; background-size: contain;"></div>{% endfor %}
+            </div>
+            <div class="col-lg-6 col-md-6 text-left">
+                <div style="margin-left: -15px; width: 280px; position: relative;" class="hidden-xs hidden-sm"><div class="square"><div style="text-align: center;">
+                <h1 class="editable">ONTMOET DE<br />KWEKER</h1>
+                </div></div></div>
+
+                <h3 class="visible-xs visible-sm editable">Ontmoet de kweker</h3>
+                <div style="margin-top: 18px;" class="italic editable"><p><em></em></p><p>Teler in hart en nieren: Roland Meewisse</p><p>'Hallo. Ik ben Roland Meewisse, de kweker van JM Plants. Planten kweken zit mij in het bloed. Ik heb het vermoedelijk van mijn vader, die ook kweker was. Zijn kwekerij heb ik overgenomen. Met JM Plants leg ik me toe op mijn passie: het telen van grote groene planten en Nepenthes. Nee, de gewone planten kom je bij ons niet zo snel tegen. Dat vinden we niet zo spannend. We kiezen liever de soorten die je nergens anders vindt. Dat worden wij nou &lsquo;wild&rsquo; van. Planten waar veel werk aan is. In heel veel soorten bovendien. Heerlijk om uit te puzzelen onder welke omstandigheden die het beste groeien. Het ene soort wil een speciale voeding, het andere soort wil weer een afwijkend klimaat. Dat maakt het telen bij JM Plants elke dag weer een uitdaging. Veel plezier van onze Urban Wild collectie!&rsquo;</p></div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="light">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 floatright">
+                <div class="bigplant" style="background: white url('{{ page.second_image }}') center center no-repeat; background-size: cover;"></div>
+                {% for item in page.variants %}<div class="smallplant" style="background: white url('{{ item.image }}') center center no-repeat; background-size: contain;"></div>{% endfor %}
+            </div>
+            <div class="col-lg-6 col-md-6 text-right floatright">
+
+                <div style="margin-right: -15px; display: inline-block; width: 280px; position: relative;" class="hidden-xs hidden-sm"><div class="square"><div style="text-align: center;">
+                <img class="jmplantslogo" src="/img/jmplantslogo.svg" />
+                </div></div></div>
+                
+                <h3 class="visible-xs visible-sm editable">JM Plants,&nbsp;<strong>de kwekerij achter Urban Wild</strong></h3>
+                <div style="margin-top: 18px;" class="italic editable"><p><em></em></p><p>Planten kweken vraagt creativiteit. Planten kweken vraagt vakkennis. Planten kweken vraagt vooral passie. Het zijn de kenmerken van JM Plants. Al sinds 1976 leggen we ons toe op de teelt van groene planten. We hebben een neus voor het vinden van verrassende soorten en opvallende vari&euml;teiten. We hebben de teelt in de vingers. En we hebben oog voor het milieu.</p><p>Bij JM Plants telen we grote groene planten, heel veel verschillende. Dat alleen al bewijst dat we geen 'massa-kweker' zijn. We gaan liever voor iets bijzonders, iets aparts. Per soort telen we kleine aantallen. Typerend voor het assortiment: altijd gaat het om planten die - letterlijk en figuurlijk - hun wortels in de jungle hebben. Planten die eyecatchers zijn in elke kamer van je huis. Planten met karakter en kwaliteit.</p><p>We streven er naar om zoveel mogelijk biologisch te kweken. Hier worden de planten gezonder en sterker van. We bootsen de natuur zo realistisch mogelijk na. In combinatie met meer ruimte, krijg je de grootste, mooiste en kwalitatief zwaarste planten.</p><p><em></em></p></div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="light">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="bigplant" style="background: white url('{{ page.third_image }}') center center no-repeat; background-size: cover;"></div>
+                {% for item in page.variants %}<div class="smallplant" style="background: white url('{{ item.image }}') center center no-repeat; background-size: contain;"></div>{% endfor %}
+            </div>
+            <div class="col-lg-6 col-md-6 text-left">
+                <div style="margin-left: -15px; width: 280px; position: relative;" class="hidden-xs hidden-sm"><div class="square"><div style="text-align: center;">
+                <h3 class="editable">MILIEU-<br />VRIENDELIJK<br />TELEN</h3>
+                </div></div></div>
+
+                <h3 class="visible-xs visible-sm editable">Milieuvriendelijk telen</h3>
+                <div style="margin-top: 18px;" class="italic editable"><p><em></em></p><p>Planten kweken begint met een goede kennis van de natuur. En dan blijkt ineens dat het niet altijd nodig is om ziekten en plagen met chemische middelen te bestrijden. Tegenwoordig zijn er veel alternatieven op natuurlijke of biologische basis. Zo teelt JM Plants.</p><p>We gaan er vanuit dat er voor alle problemen een oplossing is die al in de natuur aanwezig is. Oplossingen, die in de meeste gevallen voldoende zijn om ziekten en plagen de kop in te drukken. Dat heeft ons het MPS-A keurmerk opgeleverd, een keurmerk dat uitsluitend is voorbehouden aan kwekerijen die werken volgens strenge milieuregels.</p></div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <br />
+
+    {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+</html>

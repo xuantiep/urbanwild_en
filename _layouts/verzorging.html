@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="body" class="{{ page.layout }}" onload="">
+    <div id="nonsplash">
+    <div id="innernonsplash">
+	  {% include header.html %}
+      <div class="container italic"><div class="row"><div class="col-xs-12"><a href="/collectie" class="backlink">• Terug</a></div></div></div>
+
+    <div class="light">
+      <div class="container">
+
+        <div class="row">
+          {% for instruction in site.instructions %}
+            {% if instruction.image %}
+            <div class="col-lg-3 col-md-4 col-sm-5" style="max-width: 240px; margin-bottom: 32px;">
+              <div style="position: relative; margin-right: 28px;"><div class="square" style="position: relative;"><div style="font-size: 16px; width: 92px; white-space: normal; text-transform: lowercase; line-height: 1.1em;">
+              <img src="{{ instruction.image }}" class="care_icon" style="margin: 0 0 12px; width: 92px; cursor: default;" /><br />
+              {{ instruction.caption }}
+              </div></div></div>
+            </div>
+            <div class="col-lg-3 col-md-8 col-sm-7 text-left">
+                 <h3>{{ instruction.title }}</h3>
+                {{ instruction.content }}
+            </div>
+            {% else %}
+            <div class="col-lg-6 col-md-12 col-sm-12 text-left">
+                <h3>{{ instruction.title }}</h3>
+                {{ instruction.content }}
+            </div>
+            {% endif %}
+
+            {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.index == 8 %}
+            <div style="clear: both;"></div>
+            {% else %}
+            <div style="clear: both;" class="visible-sm visible-md"></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+</html>

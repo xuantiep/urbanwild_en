@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="300" class="{{ page.layout }}" onload="">
+
+    {% include header.html %}
+
+
+    <div class="light" id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-left">
+                <h2 class="post-title editable">Contact</h2>
+            </div> 
+        </div>
+        <div class="row" style="padding-top: 8px;">
+            <div class="col-lg-3 col-md-3 col-sm-4 text-left ">
+              
+              <p class="visible-xs" style="position: relative; bottom: 18px;">
+              AALSMEERDERWEG 669<br />
+              1435 EK RIJSENHOUT<br />
+              THE NETHERLANDS</p>
+
+              <div class="square hidden-xs"><div>
+              <h3>Adres</h3>
+              <p>
+              AALSMEERDERWEG 669<br />
+              1435 EK RIJSENHOUT<br />
+              THE NETHERLANDS</p>
+              </div></div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8">                            
+                <div id="map" onclick="window.open('https://www.google.nl/maps/place/Meewisse+VOF+J+M+Plants/@52.2705475,4.716179,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5e75fcb52143f:0x94af0545542deaa0!8m2!3d52.2705475!4d4.7183677');">
+                  <img src="/img/marker.png" />
+                </div>&nbsp;
+            </div>
+        </div>
+        <div class="row" style="padding-top: 8px;">
+            <div class="col-lg-9 col-md-9 col-sm-8 text-left">                            
+                <form id="contact_form" method="POST" action="/">
+                  <input name="_to" value="jmplants@jmplants.nl" type="hidden">
+                  <div class="form-group"><input class="form-control" required="required" name="Naam" placeholder="Naam*" type="text"></div>
+                  <div class="form-group"><input class="form-control" required="required" name="E-mailadres" placeholder="E-mailadres*" type="email"></div>
+                  <div class="form-group"><input class="form-control" required="required" name="Telefoon" placeholder="Telefoon*" type="number"></div>
+                  <div class="form-group"><textarea name="Uw bericht" class="form-control" required="required" placeholder="Uw bericht*" style="height: 120px;"></textarea></div>
+                  <input class="btn btn-default" value="Verstuur" type="submit">
+                </form>
+                <br /><br />
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 text-left ">
+              <div class="square hidden-xs"><div>
+              <h3>Contact</h3>
+              </div></div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+   
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

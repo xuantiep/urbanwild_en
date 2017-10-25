@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="language" content="NL">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+  <meta id="viewport" name="viewport" content="width=device-width">
+  <link rel="canonical" href="http://teal-falcon.cloudvent.net{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png">
+    <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png">
+    <link rel="apple-touch-icon" href="/img/icon-196x196.png">
+
+  <link rel="stylesheet" href="{{ "/css/combined.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+
+	{% include ga.html %}
+
+</head>

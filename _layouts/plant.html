@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="body" class="{{ page.layout }}" onload="">
+  <div id="nonsplash">
+    <div id="innernonsplash">
+    <div id="popup" onclick="window.location.href='/verzorging';"><div id="closepopup">x</div>LEES HIER<br />ALLES OVER DE<br />VERZORGINGSTIPS</div>
+
+	  {% include header.html %}
+
+    <div class="container italic"><div class="row"><div class="col-xs-12"><a href="/collectie" class="backlink">• Terug</a></div></div></div>
+    <div class="light">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6" style="overflow: auto;">
+                <h1 class="visible-xs visible-sm" style="font-size: 22px; text-align: left; margin-top: 0; margin-bottom: 20px;">{{ page.title }}</h1>
+                <div class="bigplant" style="background: white url('{% for item in page.variants %}{% if forloop.index == 1 %}//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit{% endif %}{% endfor %}') center center no-repeat; background-size: contain;"></div>
+                {% for item in page.variants %}<div class="smallplant" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&t=fit') center center no-repeat; background-size: contain;" title="{{ item.title }}" onclick="toggledescription(this,{{ forloop.index }})"></div>{% endfor %}
+            </div>
+            <div class="col-lg-6 col-md-6 text-left">
+                <div style="margin-left: -15px; width: 270px; position: relative;"><div class="square"><div style="text-align: center;">
+                <h1>{{ page.title }}</h1><span id="variantname">{% for item in page.variants %}{% if forloop.index == 1 %}{{ item.title }}{% endif %}{% endfor %}</span>
+                </div></div></div>
+
+                <div style="margin-top: 15px;" class="italic">
+                  • {{ page.title }}<br />
+                  <div id="descriptions">{% for item in page.variants %}<span class="description">{{ item.description_html }}</span>{% endfor %}</div><br />
+                  <br />
+                  • Land van herkomst<br />
+                  <img src="/img/globe.svg" class="care_icon" style="width: 55px; margin-right: 5px; cursor: default;" /><span style="position: relative; top: 4px;">{{ page.origin }}</span><br />
+                  <br />
+                  • Verzorging<br />
+                  <img src="/img/brightness.svg" class="care_icon" style="width: 55px;" title="Brightness" onclick="window.location.href='/verzorging';" />
+                  <img src="/img/temperature.svg" class="care_icon" style="width: 48px;" title="Temperature" onclick="window.location.href='/verzorging';" />
+                  <img src="/img/water.svg" class="care_icon" style="width: 65px;" title="Water" onclick="window.location.href='/verzorging';" />
+                  <img src="/img/fertilize.svg" class="care_icon" style="width: 65px;" title="Fertilize" onclick="window.location.href='/verzorging';" />
+                  <img src="/img/donoteat.svg" class="care_icon" style="width: 45px;" title="Do not eat" onclick="window.location.href='/verzorging';" />
+                </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+</html>

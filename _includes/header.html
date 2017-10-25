@@ -1,0 +1,84 @@
+<div id="wrapall">
+<header id="header" class="home">
+      <nav class="navbar navbar-default attop" role="navigation"><div>
+      <div class="textrow" style="position: absolute; width: 100%; display: none;"><div class="container"><div class="absright">Choose language</div></div></div>
+        <div class="container">
+
+
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <ul class="nav navmenu-nav">
+              <li><a href="/#top">Home</a></li>
+              <li><a href="/care">Care</a></li>
+              <li><a href="/#collection">Collection</a></li>
+              <li><a href="/#airpurifying">Air purifying</a></li>
+              <li><a href="/jmplants">JM Plants</a></li>
+              <li><a href="/contact">Contact</a></li>
+      </ul>
+</div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand text-center visible-xs" href="/#top" style="float: none; text-align: center;">
+              <img src="/img/urbanwildlogo.png" style="display: inline; position: relative; top: 5px;" />
+            </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="{% if page.layout == 'home' %}#top{% else %}/{% endif %}">Home</a></li>
+              <li class="{% if page.layout == 'verzorging' %}active{% endif %} hidden-sm"><a href="/care">Care</a></li>
+              <li class="{% if page.layout == 'collectie' %}active{% endif %}"><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#collection">Collection</a></li>
+              <li><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#top" id="logo"><img src="/img/urbanwildlogo.png" /></a></li>
+              <li class="hidden-sm"><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#airpurifying">Air purifying</a></li>
+              <li class="{% if page.layout == 'jmplants' %}active{% endif %}"><a href="/jmplants">JM Plants</a></li>
+              <li class="{% if page.layout == 'contact' %}active{% endif %}"><a href="/contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+        </div>
+      </nav>
+</header>
+
+
+
+
+
+
+<div id="top" class="intro">
+{% if page.layout == 'home' or page.layout == 'collectie' or page.layout == 'plant' or page.layout == 'verzorging' %}
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <div class="container" style="position: relative;">
+    <ol class="carousel-indicators vertical">
+      {% for image in page.slider %}
+      <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index0 == 0 %}active{% endif %}"></li>
+      {% endfor %}
+    </ol>
+    </div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner vertical" role="listbox">
+      {% for image in page.slider %}
+      <div class="item {% if forloop.index0 == 0 %}active{% endif %}" style="background: #dedede url('{{ image.image }}') center center no-repeat; background-size: cover;">
+        <img class="jmplantslogo" src="/img/jmplantslogo.svg" />
+        <div class="container text-left" style="position: relative;">
+          <h2 {% if image.text_color == 'dark' %}style="color: #152623;"{% endif %}{% if image.text_color == 'light' %}style="color: #ffffff;"{% endif %}>{{ image.title }}</h2>
+          <a href="{{ image.button_link }}" class="btn">{{ image.button_text }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>  
+  </div>
+
+{% else %}
+
+  <div id="myCarousel" style="background: url('{{ page.header_image }}') center center no-repeat; background-size: cover; height: 440px;">
+
+  </div>
+
+{% endif %}
+</div>
