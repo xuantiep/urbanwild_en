@@ -75,7 +75,7 @@ body {color: #152623; background: #f8f9f9; font-family: 'Orator', sans-serif; fo
 #collection.collectie2 > div > * {width: 25%; float: left;}
 #collection.collectie2 .plant {width: 25%; padding-top: 25%; margin: 0;}
 #collection.collectie2 .plant:nth-child(1), #collection.collectie2 .plant:nth-child(11) {width: 50%; padding-top: 50%;}
-#collection.collectie2 .square:nth-child(12) {position: absolute; margin-top: calc(75% - 10px); margin-left: calc(75% - 10px);}
+#collection.collectie2 .square:nth-child(12) {position: absolute; margin-top: calc(75% - 22px); margin-left: calc(75% - 22px); width: calc(25% - 8px);}
 #collection.collectie2 .plant:nth-child(11), #collection.collectie2 .plant:nth-child(13) {float: right;}
 #collection.collectie2 .square:nth-child(2) {margin-right: 2px;}
 #collection.collectie2 .square {position: relative; height: auto; padding-bottom: 0; width: 25%; padding-top: 25%;}
