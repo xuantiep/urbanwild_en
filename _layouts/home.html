@@ -33,7 +33,7 @@
             </div> 
         </div>
       </div>
-      <div class="container" style="padding: 0 7px;">
+      <div class="container" style="padding: 0 15px;">
           {% assign siteplants = site.plants | sort: 'order' %}
           {% for item in siteplants limit:7 %}
               {% if forloop.index < 3 or forloop.index == 5 or forloop.index == 6 or forloop.index == 8 or forloop.index == 9 %}
