@@ -18,13 +18,21 @@ slider:
     button_text: Bekijk de collectie
     button_link: /collection
 description_html: >-
-  <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers to a very unique quality: the leaves are extremely sensitive and move at the slightest touch! Don't worry if the leaves start to wilt slightly in the evening – that's perfectly normal. The plant is known in Eastern cultures for its medicinal properties.</p>
-origin: Brazilië
+  <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers
+  to a very unique quality: the leaves are extremely sensitive and move at the
+  slightest touch! Don't worry if the leaves start to wilt slightly in the
+  evening &ndash; that's perfectly normal. The plant is known in Eastern
+  cultures for its medicinal properties.</p>
+origin: Brazil
 variants:
   - title: SENSITIVUM
     image: /uploads/20151013759-Biophytum 9cm.jpg
     description_html: >-
-      <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers to a very unique quality: the leaves are extremely sensitive and move at the slightest touch! Don't worry if the leaves start to wilt slightly in the evening – that's perfectly normal. The plant is known in Eastern cultures for its medicinal properties.</p>
+      <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum'
+      refers to a very unique quality: the leaves are extremely sensitive and
+      move at the slightest touch! Don't worry if the leaves start to wilt
+      slightly in the evening – that's perfectly normal. The plant is known in
+      Eastern cultures for its medicinal properties.</p>
 order: 1
 ---
 
