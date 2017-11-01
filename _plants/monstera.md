@@ -2,12 +2,12 @@
 title: MONSTERA
 image: /uploads/20151012499-Monstera 180.jpg
 slider:
-  - title: Hou je jungle wild!
+  - title: Keep your jungle wild!
     image: /uploads/slide-Monstera.jpg
     text_color: dark
-    button_text: Bekijk de verzorgingstips
+    button_text: See our care tips
     button_link: /care
-  - title: Zuiverende planten voor gezond leven
+  - title: Purifying plants for healthy living
     image: /img/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Bekijk de collectie
