@@ -1,21 +1,21 @@
 ---
-title: Collectie
+title: Collection
 layout: collectie
 slider:
-  - title: Wie wil deze beauty nou niet?
+  - title: Who doesn’t want this beauty?
     image: /uploads/slide-Monstera.jpg
     text_color: light
-    button_text: Bekijk onze monsterlijk mooie collectie
+    button_text: View our monstrously beautiful collection.
     button_link: /collection
-  - title: Onze collectie
+  - title: Our collection
     image: /uploads/slide-collectie-jmplants-2.jpg
     text_color: dark
-    button_text: Bekijk onze Alocasia's
+    button_text: View our Alocasia's
     button_link: /collection/alocasia
-  - title: Zuiverende planten voor gezond leven
+  - title: Purifying plants for healthy living
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
-    button_text: Bekijk wat planten jou bieden
+    button_text: Discover what plants can do for you
     button_link: '/#airpurifying'
 ---
 
