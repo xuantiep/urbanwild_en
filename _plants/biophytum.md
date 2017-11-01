@@ -2,20 +2,20 @@
 title: BIOPHYTUM
 image: /uploads/20151013750-Biophytum 9cm.jpg
 slider:
-  - title: Zuiverende planten voor gezond leven
+  - title: Purifying plants for healthy living
     image: /uploads/slide-Alocasia-Wentii.jpg
     text_color: light
-    button_text: Ontdek wat planten jou bieden
+    button_text: Discover what plants can do for you
     button_link: '/#airpurifying'
-  - title: Hou je jungle wild
+  - title: Keep your jungle wild!
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
-    button_text: Bekijk de verzorgingstips
+    button_text: See our care tips
     button_link: /care
-  - title: Huizen zijn er helemaal wild van!
+  - title: Homes go wild for it!
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
-    button_text: Bekijk de collectie
+    button_text: Discover the collection!
     button_link: /collection
 description_html: >-
   <p>Biophytum Sensitivum is also called the mini palm tree. 'Sensitivum' refers
