@@ -14,7 +14,7 @@ slider:
     button_link: /collection
   - title: Homes go wild for it!
     image: /uploads/slide-Alocasia-Wentii.jpg
-    text_color: light
+    text_color: dark
     button_text: Discover the collection!
     button_link: /collection
 ---
