@@ -1,5 +1,5 @@
 ---
-title: Verzorging
+title: Care tips
 layout: verzorging
 slider:
   - title: Zuiverende planten voor gezond leven
