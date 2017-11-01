@@ -10,12 +10,12 @@ slider:
   - title: Purifying plants for healthy living
     image: /img/sliderhome-jmplants-1.jpg
     text_color: light
-    button_text: Bekijk de collectie
-    button_link: /collection
-  - title: Heb jij je jungle al compleet?
+    button_text: Discover what plants can do for you
+    button_link: '/#airpurifying'
+  - title: Do you have your jungle already complete?
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
-    button_text: Ontdek welke jij nog mist
+    button_text: Discover what you are still missing
     button_link: /collection
 description_html: >-
   <p>Watch out for the Monstera and its monstrously large, ribboned leaves.
