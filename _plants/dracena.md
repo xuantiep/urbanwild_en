@@ -17,14 +17,20 @@ slider:
     text_color: light
     button_text: Bekijk de collectie
     button_link: /collection
-description_html: <p>Dracaena Lemon Lime will brighten up any room with its lovely lime colour, which alternates from dark to light green for a supremely decorative effect.</p>
-origin: West Afrika
+description_html: >-
+  <p>Dracaena Lemon Lime will brighten up any room with its lovely lime colour,
+  which alternates from dark to light green for a supremely decorative
+  effect.</p>
+origin: West Africa
 variants:
   - title: LEMON LIME
     image: /uploads/20151012624-Draceana Lemon Lime.jpg
     description_html: >-
-      <p>Dracaena Lemon Lime will brighten up any room with its lovely lime colour, which alternates from dark to light green for a supremely decorative effect.</p>
+      <p>Dracaena Lemon Lime will brighten up any room with its lovely lime
+      colour, which alternates from dark to light green for a supremely
+      decorative effect.</p>
 order: 1
 ---
+
 
 Dracaena Lemon Lime will brighten up any room with its lovely lime colour, which alternates from dark to light green for a supremely decorative effect.
