@@ -26,7 +26,7 @@
             <div class="col-md-3 col-sm-4 col-xs-6" style="padding: 0 7px; cursor: pointer;" onclick="window.location.href='{{ item.url }}';">
               <h3>{{ item.title }}</h3>
               {% for subitem in item.variants %}
-                {% if forloop.index == 1 %}{{ forloop.length }} variants{% endif %}
+                {% if forloop.index == 1 %}{{ forloop.length }} variété{% if forloop.length > 1 %}s{% endif %}{% endif %}
               {% endfor %}&nbsp;
               <div class="plant" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;"></div>
               <div class="description">{{ item.description_html | strip_html | truncate: 65 }}</div>

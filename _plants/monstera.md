@@ -6,7 +6,7 @@ slider:
     image: /uploads/slide-Monstera.jpg
     text_color: dark
     button_text: Bekijk de verzorgingstips
-    button_link: /care
+    button_link: /entretien
   - title: Zuiverende planten voor gezond leven
     image: /img/sliderhome-jmplants-1.jpg
     text_color: light

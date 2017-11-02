@@ -7,10 +7,10 @@
 
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
       <ul class="nav navmenu-nav">
-              <li><a href="/#top">Home</a></li>
-              <li><a href="/care">Care tips</a></li>
+              <li><a href="/#top">Accueil</a></li>
+              <li><a href="/entretien">Entretien</a></li>
               <li><a href="/#collection">Collection</a></li>
-              <li><a href="/#airpurifying">Air purifying</a></li>
+              <li><a href="/#purification-de-l-air">Purification de l'air</a></li>
               <li><a href="/jmplants">JM Plants</a></li>
               <li><a href="/contact">Contact</a></li>
       </ul>
@@ -28,11 +28,11 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="{% if page.layout == 'home' %}#top{% else %}/{% endif %}">Home</a></li>
-              <li class="{% if page.layout == 'verzorging' %}active{% endif %} hidden-sm"><a href="/care">Care tips</a></li>
+              <li><a href="{% if page.layout == 'home' %}#top{% else %}/{% endif %}">Accueil</a></li>
+              <li class="{% if page.layout == 'verzorging' %}active{% endif %} hidden-sm"><a href="/entretien">Entretien</a></li>
               <li class="{% if page.layout == 'collectie' %}active{% endif %}"><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#collection">Collection</a></li>
               <li><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#top" id="logo"><img src="/img/urbanwildlogo.png" /></a></li>
-              <li class="hidden-sm"><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#airpurifying">Air purifying</a></li>
+              <li class="hidden-sm"><a href="{% if page.layout == 'home' %}{% else %}/{% endif %}#purification-de-l-air">Purification</a></li>
               <li class="{% if page.layout == 'jmplants' %}active{% endif %}"><a href="/jmplants">JM Plants</a></li>
               <li class="{% if page.layout == 'contact' %}active{% endif %}"><a href="/contact">Contact</a></li>
             </ul>

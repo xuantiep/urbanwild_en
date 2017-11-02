@@ -6,17 +6,17 @@ slider:
     image: /uploads/slide-Monstera.jpg
     text_color: light
     button_text: Bekijk onze monsterlijk mooie collectie
-    button_link: /collection
+    button_link: /collectie
   - title: Onze collectie
     image: /uploads/slide-collectie-jmplants-2.jpg
     text_color: dark
     button_text: Bekijk onze Alocasia's
-    button_link: /collection/alocasia
+    button_link: /collectie/alocasia
   - title: Zuiverende planten voor gezond leven
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
     button_text: Bekijk wat planten jou bieden
-    button_link: '/#purification-de-l-air'
+    button_link: '/#luchtzuiverend'
 ---
 
 
