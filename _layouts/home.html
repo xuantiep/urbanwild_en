@@ -16,11 +16,11 @@
       <div class="container">
         <div class="row">
             <div class="col-xs-12 text-left">
-                      <h2 class="post-title editable">URBAN WILD: Les maisons en sont folles!</h2>
+                      <h2 class="post-title editable">URBAN WILD: Homes go wild for it!</h2>
             </div> 
         </div>
         <div class="row">
-            <div class="col-lg-12 text-left editable"><p><strong>Amenez la jungle chez maison. Une jungle faite de grandes plantes vertes rafraîchissantes. Des plantes cool, des espèces originales. Pimentez votre intérieur avec Urban Wild. Oserez-vous sauter le pas?</strong></p></div>
+            <div class="col-lg-12 text-left editable"><p><strong>Bring a bit of jungle into your home; a jungle with big, leafy plants. A jungle with cool and unique species. Shake things up a bit with Urban Wild. For those who dare...</strong></p></div>
           </div>
       </div>
     </div>
@@ -40,29 +40,29 @@
                 <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
                 <div class="square" onclick="window.location.href='{{ item.url }}'"><div style="text-align: center;"><h3>{{ item.title }}</h3>
                 {% for subitem in item.variants %}
-                  {% if forloop.index == 1 %}{{ forloop.length }} variété{% if forloop.length > 1 %}s{% endif %}{% endif %}
+                  {% if forloop.index == 1 %}{{ forloop.length }} {% if forloop.length > 1 %}varieties{% else %}variety{% endif %}{% endif %}
                 {% endfor %}</div></div>
               {% else %}
                 <div class="square" onclick="window.location.href='{{ item.url }}'"><div style="text-align: center;"><h3>{{ item.title }}</h3>
                 {% for subitem in item.variants %}
-                  {% if forloop.index == 1 %}{{ forloop.length }} variété{% if forloop.length > 1 %}s{% endif %}{% endif %}
+                  {% if forloop.index == 1 %}{{ forloop.length }} {% if forloop.length > 1 %}varieties{% else %}variety{% endif %}{% endif %}
                 {% endfor %}</div></div>
                 <div class="plant item{{ forloop.index }}" style="background: white url('//images.weserv.nl/?url=urban-wild.com{{ item.image | replace:' ','%20' }}&w=800&h=800&output=jpg&q=50&t=fit') center center no-repeat; background-size: contain;" onclick="window.location.href='{{ item.url }}'"></div>
               {% endif %}
           {% endfor %}
                 <div style="clear: both; width: 100%; height: 1px; float: none;"></div>
-          <a href="/collection" class="btn editable" style="display: inline-block; float: none; clear: both; width: auto; margin: 25px auto 0;">Découvrez la collection complète</a>
+          <a href="/collection" class="btn editable" style="display: inline-block; float: none; clear: both; width: auto; margin: 25px auto 0;">See the whole collection</a>
       </div></div>
     </div>
 
 
-    <div class="light" id="purification-de-l-air">
+    <div class="light" id="airpurifying">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-left"> 
-            <h2 class="post-title editable">Purification de l'air</h2>
+            <h2 class="post-title editable">Air purifying</h2>
             <div class="editable">
-            <p>Les plantes Urban Wild purifient l'air de la maison. Nos espèces ont même été choisies spécialement pour leur capacité à préserver la qualité de l'air à l'intérieur. Notre espace de vie contient de nombreuses substances nocives. Les plantes absorbent et détruisent ces substances contenues dans l'air. Les plantes récupèrent également le CO2 qui se trouve dans l'air pour le transformer en oxygène. L'évapotranspiration des plantes contribue aussi à générer un meilleur taux d'humidité de l'air dans la maison. Par ailleurs, les particules fines sont fixées par les feuilles des plantes. Les plantes Urban Wild ne sont donc pas seulement belles, elles permettent aussi de créer un environnement de vie agréable!</p>
+            <p>Urban Wild plants purify the air in your home. In fact, these species were specifically chosen for their ability to clean the air. Our environment contains many toxic substances. Plants absorb and break down these substances in the air and convert CO2 into oxygen. They also improve the humidity in your home through the process of evaporation and absorb particulate matter in their leaves. All of this makes Urban Wild plants both beautiful and beneficial!</p>
               </div>
           </div>
         </div>

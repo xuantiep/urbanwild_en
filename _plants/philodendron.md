@@ -5,16 +5,6 @@ slider:
   - title: Keep your jungle wild!
     image: /uploads/slide-Monstera.jpg
     text_color: dark
-<<<<<<< HEAD
-    button_text: Bekijk de verzorgingstips
-    button_link: /entretien
-  - title: Zuiverende planten voor gezond leven
-    image: /uploads/slide-Philodendron-Xanadu.jpg
-    text_color: dark
-    button_text: Ontdek wat planten jou bieden
-    button_link: '/#purification-de-l-air'
-  - title: Heb jij je jungle al compleet?
-=======
     button_text: See our care tips
     button_link: /care
   - title: Purifying plants for healthy living
@@ -23,7 +13,6 @@ slider:
     button_text: Discover what plants can do for you
     button_link: '/#airpurifying'
   - title: Do you have your jungle already complete?
->>>>>>> b0f1fbe285412b04a9fb94bfd58a17fa27cc715d
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Discover what you are still missing

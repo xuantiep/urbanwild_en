@@ -5,16 +5,6 @@ slider:
   - title: Purifying plants for healthy living
     image: /uploads/slide_dieffenbachia.jpg
     text_color: dark
-<<<<<<< HEAD
-    button_text: Ontdek wat planten jou bieden
-    button_link: '/#purification-de-l-air'
-  - title: Hou je jungle wild!
-    image: /uploads/slide-Philodendron-Xanadu.jpg
-    text_color: dark
-    button_text: Bekijk de verzorgingstips
-    button_link: /entretien
-  - title: Huizen zijn er helemaal wild van!
-=======
     button_text: Discover what plants can do for you
     button_link: '/#airpurifying'
   - title: Keep your jungle wild!
@@ -23,7 +13,6 @@ slider:
     button_text: See our care tips
     button_link: /care
   - title: Homes go wild for it!
->>>>>>> b0f1fbe285412b04a9fb94bfd58a17fa27cc715d
     image: /uploads/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Discover the collection!

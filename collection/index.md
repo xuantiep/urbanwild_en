@@ -15,13 +15,8 @@ slider:
   - title: Purifying plants for healthy living
     image: /uploads/slide-Philodendron-Xanadu.jpg
     text_color: dark
-<<<<<<< HEAD
-    button_text: Bekijk wat planten jou bieden
-    button_link: '/#purification-de-l-air'
-=======
     button_text: Discover what plants can do for you
     button_link: '/#airpurifying'
->>>>>>> b0f1fbe285412b04a9fb94bfd58a17fa27cc715d
 ---
 
 

@@ -5,15 +5,9 @@ slider:
   - title: Keep your jungle wild!
     image: /uploads/slide-Monstera.jpg
     text_color: dark
-<<<<<<< HEAD
-    button_text: Bekijk de verzorgingstips
-    button_link: /entretien
-  - title: Zuiverende planten voor gezond leven
-=======
     button_text: See our care tips
     button_link: /care
   - title: Purifying plants for healthy living
->>>>>>> b0f1fbe285412b04a9fb94bfd58a17fa27cc715d
     image: /img/sliderhome-jmplants-1.jpg
     text_color: light
     button_text: Discover what plants can do for you
