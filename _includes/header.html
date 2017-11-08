@@ -1,8 +1,18 @@
 <div id="wrapall">
 <header id="header" class="home">
       <nav class="navbar navbar-default attop" role="navigation"><div>
-      <div class="textrow" style="position: absolute; width: 100%; display: none;"><div class="container"><div class="absright">Choose language</div></div></div>
+      <div class="textrow">
         <div class="container">
+          <div class="absright">
+            <a href="http://urban-wild.nl" {% if site.url == 'http://urban-wild.nl' %}class="active"{% endif%}><img src="/img/nl.png" /></a>
+            <a href="http://urban-wild.com" {% if site.url == 'http://urban-wild.com' %}class="active"{% endif%}><img src="/img/us.png" /></a>
+            <a href="http://urban-wild.de" {% if site.url == 'http://urban-wild.de' %}class="active"{% endif%}><img src="/img/de.png" /></a>
+            <a href="http://urban-wild.fr" {% if site.url == 'http://urban-wild.fr' %}class="active"{% endif%}><img src="/img/fr.png" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
 
 
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
