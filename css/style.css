@@ -135,8 +135,9 @@ footer a, footer a:hover, footer a:focus {color: #231F20;}
 }
 
 .textrow {z-index: 99; position: absolute; width: 100%;}
-.textrow img {opacity: 0.7; height: 20px; display: inline-block; margin-left: 10px; filter: gray; /* IE6-9 */ -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */ filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */}
-.textrow img:hover, .textrow a.active img {opacity: 1; -webkit-filter: grayscale(0); filter: none;}
+.textrow img {opacity: 0.7; height: 20px; display: inline-block; margin-left: 10px;}
+.textrow img:hover {opacity: 1;}
+.textrow a.active img {opacity: 0.7; filter: gray; /* IE6-9 */ -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */ filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */}
 
 .absright {width: 160px; float: right; height: 14px; font-size: 12px; line-height: 1.5em;}
 .absright > * {float: right; display: block;}
